@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>FSharpx.Async</id>
+    <version>1.13.2</version>
+    <title>FSharpx.Async</title>
+    <authors>Thomas Petricek, David Thomas, Ryan Riley, Steffen Forkmann</authors>
+    <owners>Thomas Petricek, David Thomas, Ryan Riley, Steffen Forkmann</owners>
+    <licenseUrl>http://fsprojects.github.io/FSharpx.Async/license.html</licenseUrl>
+    <projectUrl>http://fsprojects.github.io/FSharpx.Async/</projectUrl>
+    <iconUrl>http://fsprojects.github.io/FSharpx.Async/img/logo.png</iconUrl>
+    <description>Async extensions for F#</description>
+    <summary>Async extensions for F#</summary>
+    <releaseNotes>BUGFIX: ParallelWithThrottle - https://github.com/fsprojects/FSharpx.Async/pull/35</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>F# async fsharpx</tags>
+    <dependencies>
+      <dependency id="FSharp.Control.AsyncSeq" />
+      <dependency id="Fsharp.Core" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>FSharpx.Collections</id>
+    <version>1.16.0</version>
+    <title>FSharpx.Collections</title>
+    <authors>Steffen Forkmann, Daniel Mohl, Tomas Petricek, Ryan Riley, Mauricio Scheffer, Phil Trelford</authors>
+    <owners>Steffen Forkmann, Daniel Mohl, Tomas Petricek, Ryan Riley, Mauricio Scheffer, Phil Trelford</owners>
+    <licenseUrl>http://github.com/fsprojects/FSharpx.Collections/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/fsprojects/FSharpx.Collections</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/fsprojects/FSharpx.Collections/master/docs/files/img/logo.png</iconUrl>
+    <description>FSharpx.Collections is a collection of datastructures for use with F# and C#.</description>
+    <summary>FSharpx.Collections is a collection of datastructures for use with F# and C#.</summary>
+    <releaseNotes>New tagged structures - https://github.com/fsprojects/FSharpx.Collections/pull/69
+Use FSharp.Core 4.0
+Couple of new helper functions - https://github.com/fsprojects/FSharpx.Collections/pull/64 https://github.com/fsprojects/FSharpx.Collections/pull/63
+Improved RandomAccessList API with some functions from PersistentVector - https://github.com/fsprojects/FSharpx.Collections/pull/54
+Faster NonEmptyList implementation - https://github.com/fsprojects/FSharpx.Collections/pull/62</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>F# fsharp fsharpx collections datastructures</tags>
+    <dependencies>
+      <dependency id="FSharp.Core" version="0.0" />
+    </dependencies>
+  </metadata>
+</package>

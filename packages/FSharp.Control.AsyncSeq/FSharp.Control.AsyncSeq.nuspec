@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>FSharp.Control.AsyncSeq</id>
+    <version>2.0.12</version>
+    <authors>Tomasz Petricek, David Thomas, Ryan Riley, Steffen Forkmann</authors>
+    <owners>Tomasz Petricek, David Thomas, Ryan Riley, Steffen Forkmann</owners>
+    <licenseUrl>http://fsprojects.github.io/FSharp.Control.AsyncSeq/license.html</licenseUrl>
+    <projectUrl>http://fsprojects.github.io/FSharp.Control.AsyncSeq/</projectUrl>
+    <iconUrl>http://fsprojects.github.io/FSharp.Control.AsyncSeq/img/logo.png</iconUrl>
+    <description>Asynchronous sequences for F#</description>
+    <summary>Asynchronous sequences for F#</summary>
+    <releaseNotes>Fix bug #63 in AsyncSeq.unfold &amp;gt;&amp;gt; AsyncSeq.choose</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>F# async fsharpx</tags>
+  </metadata>
+</package>

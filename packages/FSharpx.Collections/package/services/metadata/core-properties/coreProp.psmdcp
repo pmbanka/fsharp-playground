@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coreProperties xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dc:creator>Steffen Forkmann, Daniel Mohl, Tomas Petricek, Ryan Riley, Mauricio Scheffer, Phil Trelford</dc:creator>
+  <dc:description>FSharpx.Collections is a collection of datastructures for use with F# and C#.</dc:description>
+  <dc:identifier>FSharpx.Collections</dc:identifier>
+  <version>1.16.0</version>
+  <keywords />
+  <dc:title>FSharpx.Collections</dc:title>
+  <lastModifiedBy>paket</lastModifiedBy>
+</coreProperties>

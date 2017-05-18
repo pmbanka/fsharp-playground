@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>FSharpx.Extras</id>
+    <version>2.2.1</version>
+    <title>FSharpx.Extras</title>
+    <authors>Steffen Forkmann and others</authors>
+    <owners>Steffen Forkmann and others</owners>
+    <licenseUrl>https://github.com/fsprojects/FSharpx.Extras/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/fsprojects/FSharpx.Extras</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/fsprojects/FSharpx.Extras/master/docs/files/img/logo.png</iconUrl>
+    <description>FSharpx.Extras implements general functional constructs on top of the F# core library. Its main target is F# but it aims to be compatible with all .NET languages wherever possible.</description>
+    <summary>FSharpx.Extras implements general functional constructs on top of the F# core library. Its main target is F# but it aims to be compatible with all .NET languages wherever possible.</summary>
+    <releaseNotes>BGUFIX: Fixed `ParallelWithThrottle` - https://github.com/fsprojects/FSharpx.Extras/pull/350</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>fsharpx fsharp</tags>
+    <dependencies>
+      <dependency id="FSharpx.Async" />
+      <dependency id="FSharpx.Collections" />
+    </dependencies>
+  </metadata>
+</package>
