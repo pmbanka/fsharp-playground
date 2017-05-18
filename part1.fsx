@@ -40,12 +40,16 @@ module Tuples =
     let unit = ()
 
 module BasicFunctions = 
+    // Function that doesn't take any arg and returns 'void'
+    let f () = ()
+
     // Use 'let' to define a function that accepts an integer argument and returns an integer. Then do a float version
     let func1 x = x*x + 3
     let func1a x = x*x + 3.
 
     // Explain signatures  
-
+    // int -> float -> bool -> unit
+     
     // Parentheses vs lack of them    
     let funcWithTuple (x, y) = x + y
     let funcWithMultiArgs x y = x + y
@@ -56,7 +60,7 @@ module BasicFunctions =
     let swapElems (a, b) = (b, a)       
 
     // When needed, annotate the type of a parameter name using '(argument:type)'
-    let func2 (x:int) = 2*x*x - x/5 + 3
+    let func2 (x:int) : int = 2*x*x - x/5 + 3
 
     // Partial application (add10)
     let add x y = x + y
@@ -187,6 +191,15 @@ module ControlFlow =
         | "b", _ -> 3
         | _, _ -> -1
 
+    // Pattern matching on types
+    let input = box "asdf"
+    let baz = 
+        match input with
+        | :? int as input -> printfn "%d" input
+        | :? float as input -> printfn "%f" input
+        | :? string as input -> printfn "%s" input
+        | _ -> printfn "I give up. %s" <| input.GetType().ToString()
+
     // for loop
     for i in 1 .. 10 do
         printfn "%d" i
@@ -234,23 +247,24 @@ module CombiningFunctions =
 // ---------------------------------------------------------------
 
 module Evercises =
-    // write a function calculating BMI and outputing the category
+    // write a function calculating BMI (kudos if it is outputing the category)
     // https://en.wikipedia.org/wiki/Body_mass_index#Categories
 
 
-    // - write FizzBuzz
-
-    // reverse the string
+    // write FizzBuzz
 
 
-    // - count sum of squares of first 156 even positive integers
+    // reverse a string
 
 
-    // - write function that outputs n-th element of a Fibonacci sequence
+    // count sum of squares of first 156 even positive integers
+
+
+    // write function that outputs n-th element of a Fibonacci sequence
 
 
     // make factorial recursive func tail-recursive
 
 
-    // - write a function that counts all acurrences of all letters in a string. You can use Map or System.Collections.Generic.Dictionary to keep track of them
+    // write a function that counts all acurrences of all letters in a string. You can use Map or System.Collections.Generic.Dictionary to keep track of them
 

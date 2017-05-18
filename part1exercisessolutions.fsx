@@ -7,7 +7,7 @@ module Evercises =
     // https://en.wikipedia.org/wiki/Body_mass_index#Categories
     let bmi (mass:float) (height:float) = mass / (height * height) 
 
-    // - write FizzBuzz
+    // write FizzBuzz
 
     let fizzbuzz n =
         if n % 15 = 0 then
@@ -21,7 +21,7 @@ module Evercises =
 
     [1 .. 15] |> Seq.map fizzbuzz |> List.ofSeq
 
-    // reverse the string
+    // reverse a string
     let reverse str =
         let rec loop s acc =
             if String.length s = 0 then
@@ -32,14 +32,14 @@ module Evercises =
 
     reverse "abcde"
 
-    // - count sum of squares of first 156 even positive integers
+    // count sum of squares of first 156 even positive integers
     let sum =
         [ 1 .. 156 ]
         |> Seq.where (fun x -> x % 2 = 0)
         |> Seq.map (fun x -> x*x)
         |> Seq.sum
 
-    // - write function that outputs n-th element of a Fibonacci sequence
+    // write function that outputs n-th element of a Fibonacci sequence
     let rec fibonacci n =
         match n with 
         | 0 -> 1
@@ -66,7 +66,7 @@ module Evercises =
         loop 1 n
     factorial 5
 
-    // - write a function that counts all acurrences of all letters in a string. You can use Map or System.Collections.Generic.Dictionary to keep track of them
+    // write a function that counts all acurrences of all letters in a string. You can use Map or System.Collections.Generic.Dictionary to keep track of them
     let count input =
         let rec loop acc str =
             if str = "" then

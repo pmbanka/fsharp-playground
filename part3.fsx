@@ -26,3 +26,22 @@ module MaybeComputations =
         let! z = None
         return x + y / z
     }
+
+module SeqComputations = 
+    let s1 () = seq {
+        yield 1
+        yield 2
+    }
+
+    let s2 () = seq {
+        yield 3
+        yield 4
+    }
+
+    let combined () = seq {
+        yield! s1 ()
+        yield! s2 ()
+    }
+
+    let result = combined ()
+
